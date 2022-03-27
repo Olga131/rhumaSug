@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.header_top {
+    background: #04856B;
+    height: 2vh;
+    width: 100vw;
+}
+.header_middle{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header_down{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #383636;
+    height: 6vh;
+    width: 100vw;
+}
+.header_down p{
+    color: white;
+}
+.header_div{
+    display: flex;
+}
+.space_between{
+    display: flex;
+    justify-content: space-between;
+    width: 25vw;
+}
+.catalog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+a.button7 {
+    margin-top: 10px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+  } 
+  a.button7:hover { background: rgb(53, 167, 110); }
+  a.button7:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+  }
+/*CARTE*/
+.carte{
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    width: 230px;
+    border: 1px solid #C4BEBE;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 30px;
+   gap: 10px;
+}
+.img_carte{
+    width: 151px;
+    height: 139px;
+    padding-left: 39px;
+}
+figcaption{
+    text-align: center;
+}
+.prix_quantite{
+    display: flex;
+    justify-content: center;
+}
+.quantite_carte{
+    width: 99px;
+    height: 25px;
+    border: 1px solid #C4BEBE;
+    box-sizing: border-box;
+}
+.prix_carte{
+    width: 84px;
+}
+.panier_vert{
+    display: flex;
+    justify-content: center;
+}
+.grammes_carte{
+    display: flex;
+    margin-left: 65px;
+    justify-content: center;
+    width: 99px;
+    height: 25px;
+    border: 1px solid #C4BEBE;
+    box-sizing: border-box;
+}
+.panier{
+    width: 129px;
+    height: 30px;
+    background: #12B594;
+    border: 0.5px solid #797676;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+.acheter{
+    color: white;
+}
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #383636;
+    text-align: center;
+    height: 20vh;
+}
+footer p{
+    color: white;
+}
+.footer_div{
+    width: 150px;
+}
+.logo_payements{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 35px;
+    background-color: white;
+}
+/*deuxieme page Qui sommes nous?*/
+.nos_valeurs{
+    display: flex;
+}
+.nos_valeurs p{
+   display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.block_nos_valeurs{
+    padding: 30px;
+    text-align: center;
+}
+.nos_valeurs > img{
+height: 17vh;
+width: 45vw;
+}
+.block_gauche{
+    justify-content: start;
+}
+.block_droit{
+    justify-content: end;
+}
+

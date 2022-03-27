@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    height: 25vh;
+}
+.header_top {
+    background: #04856B;
+    height: 2vh;
+    width: 100vw;
+}
+.logo{
+width: 128px;
+height: 73px;
+margin-left: 247px;
+margin-top: 3vh;
+}
+h2{
+    font-weight: bold;
+    color: #383636;
+}
+/*MAIN*/
+main{
+    display: flex;
+    height: 55vh;
+    margin-left: 10vw;
+}
+.me_connecter{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 50vw;
+}
+.nouveau_client{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    width: 50vw;
+}
+.nouveau_client h2{
+    color: #FF5F00;
+}
+.nouveau_client p{
+    font-size: 3vh;
+    color: #383636;
+    font-weight: bold;
+}
+.space{
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+.champ_registration{
+width: 561px;
+height: 96px;
+border: 0.5px solid #383636;
+box-sizing: border-box;
+border-radius: 24px;
+}
+
+/*FOOTER*/
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #383636;
+    text-align: center;
+    height: 20vh;
+}
+footer p{
+    color: white;
+}
+.footer_div{
+    width: 150px;
+}
+.logo_payements{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 35px;
+    background-color: white;
+}
+
